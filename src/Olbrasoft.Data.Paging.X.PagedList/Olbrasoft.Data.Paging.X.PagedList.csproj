@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;</TargetFrameworks>
+    <Authors>Jiří Tůma</Authors>
+    <Company>Olbrasoft</Company>
+    <Description>Extensions namespace Olbrasoft.Data IBasicPagedResult AsPagedList</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>olbrasoft-x-paged-list.png</PackageIcon>
+    <RepositoryUrl>https://github.com/Olbrasoft/Data.Paging.X.PagedList</RepositoryUrl>
+    <RepositoryType>Group</RepositoryType>
+    <PackageTags>Etensions X.PagedList</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="X.PagedList" Version="8.0.5" />
+    <PackageReference Include="Olbrasoft.Data" Version="*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\olbrasoft-x-paged-list.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
