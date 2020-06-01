@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data.Paging.X.PagedList.Tests", "test\Data.Paging.X.PagedList.Tests\Data.Paging.X.PagedList.Tests.csproj", "{8392CEBB-3893-4854-9226-EA157E31CBA2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olbrasoft.Data.Paging.X.PagedList.Tests", "test\Olbrasoft.Data.Paging.X.PagedList.Tests\Olbrasoft.Data.Paging.X.PagedList.Tests.csproj", "{6C49067B-2E66-43BD-BDF4-1E56AFF9145F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -22,10 +22,10 @@ Global
 		{FAD52F1E-0FC5-451A-9CCD-643482718880}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FAD52F1E-0FC5-451A-9CCD-643482718880}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FAD52F1E-0FC5-451A-9CCD-643482718880}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8392CEBB-3893-4854-9226-EA157E31CBA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8392CEBB-3893-4854-9226-EA157E31CBA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8392CEBB-3893-4854-9226-EA157E31CBA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8392CEBB-3893-4854-9226-EA157E31CBA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C49067B-2E66-43BD-BDF4-1E56AFF9145F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C49067B-2E66-43BD-BDF4-1E56AFF9145F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C49067B-2E66-43BD-BDF4-1E56AFF9145F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C49067B-2E66-43BD-BDF4-1E56AFF9145F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
