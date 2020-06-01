@@ -10,7 +10,7 @@
     <RepositoryUrl>https://github.com/Olbrasoft/Data.Paging.X.PagedList</RepositoryUrl>
     <RepositoryType>Group</RepositoryType>
     <PackageTags>Etensions X.PagedList</PackageTags>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>

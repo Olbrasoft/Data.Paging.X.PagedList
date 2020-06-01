@@ -48,8 +48,7 @@ namespace Data.Paging.X.PagedList.Tests
             var resultMock = new Mock<IBasicPagedResult<object>>();
             var expectedParameterName = "paging";
 
-            //Act
-            try
+            try //Act
             {
                 resultMock.Object.AsPagedList(null);
             }
