@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using X.PagedList;
 
 namespace Olbrasoft.Data.Paging.X.PagedList
@@ -7,6 +8,9 @@ namespace Olbrasoft.Data.Paging.X.PagedList
     {
         public SimplePagedList(IEnumerable<T> subSet, int pageNumber, int pageSize, int totalItemCount) : base(pageNumber, pageSize, totalItemCount)
         {
+            if (subSet == null)
+                throw new ArgumentNullException(nameof(subSet));
+
             Subset.AddRange(subSet);
         }
     }

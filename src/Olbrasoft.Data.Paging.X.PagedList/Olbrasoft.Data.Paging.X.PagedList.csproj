@@ -10,11 +10,12 @@
     <RepositoryUrl>https://github.com/Olbrasoft/Data.Paging.X.PagedList</RepositoryUrl>
     <RepositoryType>Group</RepositoryType>
     <PackageTags>Etensions X.PagedList</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="X.PagedList" Version="8.0.5" />
-    <PackageReference Include="Olbrasoft.Data" Version="*" />
+    <PackageReference Include="X.PagedList" Version="8.0.7" />
+    <PackageReference Include="Olbrasoft.Data" Version="1.0.1" />
   </ItemGroup>
 
   <ItemGroup>
