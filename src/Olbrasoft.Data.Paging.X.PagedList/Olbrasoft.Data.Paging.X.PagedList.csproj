@@ -1,27 +1,36 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;netstandard2.1;</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;netstandard2.1;net8.0;net9.0;net10.0</TargetFrameworks>
+    <LangVersion>12</LangVersion>
     <Authors>Jiří Tůma</Authors>
     <Company>Olbrasoft</Company>
-    <Description>Extensions namespace Olbrasoft.Data IBasicPagedResult AsPagedList</Description>
+    <Description>Extensions for X.PagedList - AsPagedList conversion methods for IBasicPagedResult</Description>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>olbrasoft-x-paged-list.png</PackageIcon>
     <RepositoryUrl>https://github.com/Olbrasoft/Data.Paging.X.PagedList</RepositoryUrl>
-    <RepositoryType>Group</RepositoryType>
-    <PackageTags>Etensions X.PagedList</PackageTags>
-    <Version>1.0.2</Version>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>Extensions X.PagedList Paging Pagination</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Version>10.0.0</Version>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="X.PagedList" Version="8.0.7" />
-    <PackageReference Include="Olbrasoft.Data" Version="1.0.1" />
+    <PackageReference Include="X.PagedList" Version="10.0.0" />
+    <PackageReference Include="Olbrasoft.Data.Paging" Version="10.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="..\..\olbrasoft-x-paged-list.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
+    </None>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
     </None>
   </ItemGroup>
 </Project>
